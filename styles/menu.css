@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(65, 60, 60);
+    background-image: url('../imgs/menu/background.avif');
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+button:focus,
+button:focus-visible,
+button:active {
+    outline: none;
+    box-shadow: none;
+}
+
+button{
+    color: white;
+    font-size: 32px;
+    width: 30%;
+    margin: 6px;
+    padding: 16px;
+
+    background-color:  rgb(23, 27, 41);
+    
+    border: 2px solid;
+    border-color: rgb(77, 75, 72);
+    border-radius: 40px;
+    text-align: center;
+
+    transition: color 0.4s;
+}
+
+button:hover{
+    color: rgb(165, 61, 61);
+}
+
+.animated_logo{
+    position: relative;
+    top: -100px;
+    z-index: 1;
+}
+
+.navbar-menu{
+    background-color: rgb(23, 27, 41);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 6%;
+
+    color: white;
+    font-size: 22px;
+    background-color: rgb(23, 27, 41);
+
+    display: flex;
+    align-items: center;    
+    justify-content: center;  
+}

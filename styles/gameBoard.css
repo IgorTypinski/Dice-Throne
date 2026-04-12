@@ -1,0 +1,6 @@
+body{
+    background-color: rgb(65, 60, 60);
+    background-image: url('../imgs/table_background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
